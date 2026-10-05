@@ -1,0 +1,43 @@
+# Configuración local y secretos
+.env
+*.env
+!.env.example
+*.pem
+*.key
+credentials
+.aws/
+
+# Oracle Instant Client / binarios (licencia de Oracle: no redistribuir)
+instantclient_*/
+*.dll
+*.so
+*.so.*
+*.dylib
+*.sym
+META-INF/
+
+# Salidas generadas
+*.csv
+salida/
+output/
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
